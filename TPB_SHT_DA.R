@@ -20,3 +20,7 @@ View(dataset)
 
 # Clear individual filters by clicking the (x) next to the filter;
 # to clear all the filters at once, click the Filter icon in the toolbar.
+
+head(dataset)  # displays first few rows
+tail(dataset)  # displays last rows
+str(dataset)   # displays whether the variables are continuous, integers, categorical or characters 
